@@ -1,4 +1,34 @@
 h1 {
-    color: #e28743;
     text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+ol li {
+    background-color: #e28743;
+    list-style-position: inside;
+    text-align: center;
+    font-size: 5vh;
+}
+
+nav > a {
+    font-size: 24pt;
+    margin: 5px;
+}
+
+img {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    padding: 0;
+}
+
+.mediumCentered {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    padding: 0;
+}
+
+.colorPanda {
+    color: #e28743;
 }
