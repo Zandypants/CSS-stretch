@@ -1,15 +1,32 @@
+body {
+    background-color: #f9f2ec;
+}
 h1 {
     text-align: center;
 }
 h2 {
     text-align: center;
 }
-
-ol li {
-    background-color: #e28743;
-    list-style-position: inside;
+h3 {
     text-align: center;
-    font-size: 5vh;
+}
+h4 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+h6 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+section > a {
+    display: block;
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 8px;
 }
 
 nav > a {
@@ -20,15 +37,32 @@ nav > a {
 img {
     width: 800px;
     margin-left: calc(50% - 400px);
+    padding: 0px;
+}
+
+li {
+    text-align: center;
+    font-size: 5vh;
+}
+
+/* ol li {
+    list-style-position: inside;
+} */
+
+ol {
     padding: 0;
 }
 
 .mediumCentered {
     width: 800px;
     margin-left: calc(50% - 400px);
-    padding: 0;
+    padding: 0px;
 }
 
-.colorPanda {
-    color: #e28743;
+.roundedCorner {
+    border-radius: 20px;
+}
+
+#portrait {
+    border-radius: 50%;
 }

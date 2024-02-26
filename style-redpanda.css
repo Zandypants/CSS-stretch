@@ -1,0 +1,23 @@
+ol li {
+    background-color: #e28743;
+}
+
+ul li {
+    background-color: forestgreen;
+}
+
+h1 {
+    text-align: center;
+    color: #e28743;
+    font-size: 32pt;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32pt;
+    background-color: forestgreen;
+}
+
+.colorPanda {
+    color: #e28743;
+}
